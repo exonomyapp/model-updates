@@ -1,0 +1,536 @@
+{
+  "generated_at": "2026-10-07 15:25 UTC",
+  "providers": [
+    {
+      "provider": "alibaba_maas",
+      "total": 74,
+      "active": 74
+    },
+    {
+      "provider": "nvidia",
+      "total": 9,
+      "active": 9
+    }
+  ],
+  "rounds": [
+    {
+      "run_id": "nvidia_b2_1791386338",
+      "provider": "nvidia",
+      "tested": 9,
+      "successful": 3,
+      "failed": 6,
+      "new": 9,
+      "inactive": 0
+    },
+    {
+      "run_id": "alibaba_maas_b1_1791386167",
+      "provider": "alibaba_maas",
+      "tested": 74,
+      "successful": 71,
+      "failed": 3,
+      "new": 74,
+      "inactive": 0
+    }
+  ],
+  "active_models": [
+    {
+      "model": "ZHIPU/GLM-5.3",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:18.077953"
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:20.727544"
+    },
+    {
+      "model": "deepseek-v4-flash-0731",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:21.210867"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:23.282129"
+    },
+    {
+      "model": "deepseek-v4-pro-0813",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:24.081387"
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:23.282038"
+    },
+    {
+      "model": "glm-5.2",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:26.771344"
+    },
+    {
+      "model": "glm-5.2-fast-preview",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:25.643675"
+    },
+    {
+      "model": "glm-5.3",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:27.611468"
+    },
+    {
+      "model": "glm-5.3-prime",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:28.898692"
+    },
+    {
+      "model": "kimi-k2.7-code",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:32.481794"
+    },
+    {
+      "model": "kimi-k3",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:28.239509"
+    },
+    {
+      "model": "kimi/kimi-k3",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:28.929464"
+    },
+    {
+      "model": "qwen-audio-3.1-realtime-plus",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:29.637991"
+    },
+    {
+      "model": "qwen-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:30.975197"
+    },
+    {
+      "model": "qwen-plus",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:34.142624"
+    },
+    {
+      "model": "qwen-plus-2025-09-11",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:32.740532"
+    },
+    {
+      "model": "qwen-plus-2025-12-01",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:36.907463"
+    },
+    {
+      "model": "qwen-plus-latest",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:37.330407"
+    },
+    {
+      "model": "qwen3-coder-480b-a35b-instruct",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:37.452899"
+    },
+    {
+      "model": "qwen3-coder-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:39.782866"
+    },
+    {
+      "model": "qwen3-coder-next",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:39.765506"
+    },
+    {
+      "model": "qwen3-coder-plus",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:40.556053"
+    },
+    {
+      "model": "qwen3-coder-plus-2025-07-22",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:44.332951"
+    },
+    {
+      "model": "qwen3-coder-plus-2025-09-23",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:16:43.972765"
+    },
+    {
+      "model": "qwen3-max",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:44.906853"
+    },
+    {
+      "model": "qwen3-max-2025-09-23",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:48.273748"
+    },
+    {
+      "model": "qwen3-max-2026-01-23",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:48.605770"
+    },
+    {
+      "model": "qwen3-max-preview",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:49.809683"
+    },
+    {
+      "model": "qwen3-vl-flash",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:51.644880"
+    },
+    {
+      "model": "qwen3-vl-flash-2025-10-15",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:50.936668"
+    },
+    {
+      "model": "qwen3-vl-flash-2026-01-22",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:52.868097"
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:54.826979"
+    },
+    {
+      "model": "qwen3-vl-plus-2025-09-23",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:56.055624"
+    },
+    {
+      "model": "qwen3-vl-plus-2025-12-19",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:56.638823"
+    },
+    {
+      "model": "qwen3.5-122b-a10b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:16:58.103646"
+    },
+    {
+      "model": "qwen3.5-27b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:01.897625"
+    },
+    {
+      "model": "qwen3.5-35b-a3b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:00.049435"
+    },
+    {
+      "model": "qwen3.5-397b-a17b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:07.006540"
+    },
+    {
+      "model": "qwen3.5-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:04.060970"
+    },
+    {
+      "model": "qwen3.5-flash-2026-02-23",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:04.779614"
+    },
+    {
+      "model": "qwen3.5-omni-flash",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:05.717746"
+    },
+    {
+      "model": "qwen3.5-omni-flash-2026-03-15",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:06.475032"
+    },
+    {
+      "model": "qwen3.5-omni-flash-realtime",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:06.374783"
+    },
+    {
+      "model": "qwen3.5-omni-flash-realtime-2026-03-15",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:07.010058"
+    },
+    {
+      "model": "qwen3.5-omni-plus",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:09.595301"
+    },
+    {
+      "model": "qwen3.5-omni-plus-2026-03-15",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:10.147598"
+    },
+    {
+      "model": "qwen3.5-omni-plus-realtime",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:07.749758"
+    },
+    {
+      "model": "qwen3.5-omni-plus-realtime-2026-03-15",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:08.512495"
+    },
+    {
+      "model": "qwen3.5-plus",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:19.977946"
+    },
+    {
+      "model": "qwen3.5-plus-2026-02-15",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:19.648445"
+    },
+    {
+      "model": "qwen3.5-plus-2026-04-20",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:42.637649"
+    },
+    {
+      "model": "qwen3.6-27b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:40.746789"
+    },
+    {
+      "model": "qwen3.6-35b-a3b",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:17:31.178788"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:40.425233"
+    },
+    {
+      "model": "qwen3.6-flash-2026-04-16",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:17:49.536740"
+    },
+    {
+      "model": "qwen3.6-max-preview",
+      "provider": "alibaba_maas",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:18:01.946587"
+    },
+    {
+      "model": "qwen3.6-plus",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:04.391810"
+    },
+    {
+      "model": "qwen3.6-plus-2026-04-02",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:16.131544"
+    },
+    {
+      "model": "qwen3.7-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:13.459621"
+    },
+    {
+      "model": "qwen3.7-flash-2026-07-15",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:20.752985"
+    },
+    {
+      "model": "qwen3.7-max",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:26.068754"
+    },
+    {
+      "model": "qwen3.7-max-2026-05-17",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:23.830275"
+    },
+    {
+      "model": "qwen3.7-max-2026-05-20",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:26.566924"
+    },
+    {
+      "model": "qwen3.7-max-2026-06-08",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:40.810746"
+    },
+    {
+      "model": "qwen3.7-max-preview",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:37.059072"
+    },
+    {
+      "model": "qwen3.7-plus",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:35.521787"
+    },
+    {
+      "model": "qwen3.7-plus-2026-05-26",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:46.280499"
+    },
+    {
+      "model": "qwen3.8-2.4t-a95b",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:45.809468"
+    },
+    {
+      "model": "qwen3.8-27b",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:48.813353"
+    },
+    {
+      "model": "qwen3.8-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:51.457044"
+    },
+    {
+      "model": "qwen3.8-max",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:55.140696"
+    },
+    {
+      "model": "qwen3.8-max-0902",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:58.935590"
+    },
+    {
+      "model": "qwen3.8-omni-flash",
+      "provider": "alibaba_maas",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:18:57.190345"
+    },
+    {
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:21:00.730641"
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:19:00.840484"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider": "nvidia",
+      "context_window": 1048576,
+      "last_tested": "2026-10-07T17:21:00.736389"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:19:04.152097"
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:19:12.759403"
+    },
+    {
+      "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:19:37.059820"
+    },
+    {
+      "model": "poolside/laguna-xs-2.1",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-07T17:19:37.325948"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:21:37.472727"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-07T17:23:00.991499"
+    }
+  ],
+  "inactive_models": []
+}
