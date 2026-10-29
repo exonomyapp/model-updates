@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-29 08:04 UTC",
+  "providers": [
+    {
+      "provider": "nvidia",
+      "total": 9,
+      "active": 9
+    }
+  ],
+  "rounds": [
+    {
+      "run_id": "nvidia_b1_1793260926",
+      "provider": "nvidia",
+      "tested": 9,
+      "successful": 1,
+      "failed": 8,
+      "new": 9,
+      "inactive": 0
+    }
+  ],
+  "active_models": [
+    {
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-29T09:03:07.999485"
+    },
+    {
+      "model": "minimaxai/minimax-m3.1-flash",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-29T09:02:31.669492"
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-29T09:02:08.104824"
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-29T09:02:08.289591"
+    },
+    {
+      "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-29T09:02:11.749300"
+    },
+    {
+      "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "provider": "nvidia",
+      "context_window": 1048576,
+      "last_tested": "2026-10-29T09:02:09.412990"
+    },
+    {
+      "model": "poolside/laguna-xs-2.1",
+      "provider": "nvidia",
+      "context_window": 262144,
+      "last_tested": "2026-10-29T09:02:09.833059"
+    },
+    {
+      "model": "stepfun-ai/step-5-preview",
+      "provider": "nvidia",
+      "context_window": 1048576,
+      "last_tested": "2026-10-29T09:03:07.998945"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "nvidia",
+      "context_window": 1000000,
+      "last_tested": "2026-10-29T09:03:08.259389"
+    }
+  ],
+  "inactive_models": []
+}
